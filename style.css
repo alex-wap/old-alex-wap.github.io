@@ -25,8 +25,13 @@ nav ul li{
 	letter-spacing: 1px;
 }
 
+#hello{
+	margin-left: 88px;
+	width: 80%;
+}
+
 p{
-	margin: 25px 0 0 88px;
+	margin-left: 20px;
 }
 
 .container{
@@ -43,14 +48,14 @@ p{
 }
 
 h1{
-	margin: 20px 0 0 20px;
+	margin: 20px 0 25px 20px;
 	font-size: 28px;
 	border-bottom: 1px solid black;
 	padding-bottom: 10px;
 	padding-right: 300px;
 }
 
-#myphoto{
+.myphoto{
 	margin: 30px auto 0;
 	border-radius: 150px;
 	text-align: center;
