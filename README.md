@@ -1,1 +1,1 @@
-This is my portfolio page.
+This is my github pages portfolio page.
