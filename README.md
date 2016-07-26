@@ -1,1 +1,1 @@
-This is my github pages portfolio page.
+This is my personal website to share with the world. I use Twitter bootstrap.
