@@ -47,3 +47,9 @@ h1{
 	padding-bottom: 10px;
 	padding-right: 300px;
 }
+
+#myphoto{
+	border-radius: 150px;
+	margin-left: 88px;
+	text-align: center;
+}
