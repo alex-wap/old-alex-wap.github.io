@@ -22,19 +22,21 @@ nav ul li{
 	list-style: none;
 	padding: 8px 0 0;
 	font-size: 11pt;
+	letter-spacing: 1px;
 }
 
 p{
-	margin: 20px 0 0 88px;
+	margin: 25px 0 0 88px;
 }
 
 .container{
-	background-color: silver;
+	background-color: white;
 	margin: 40px;
 	padding-bottom: 10px;
 }
 
 #main_content{
+	margin-left: 10px;
 	border-left: 1px solid black;
 	display: inline-block;
 	vertical-align: top;
@@ -49,7 +51,9 @@ h1{
 }
 
 #myphoto{
+	margin: 30px auto 0;
 	border-radius: 150px;
-	margin-left: 88px;
 	text-align: center;
+	position: relative;
+	left: 40%;
 }
