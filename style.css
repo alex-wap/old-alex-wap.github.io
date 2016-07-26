@@ -13,14 +13,14 @@ a {
 /* pick font */
 
 nav {
-	padding: 30px 10px 0px 10px;
+	padding: 30px 0 0 0;
 	display: inline-block;
 	padding-right: 50px;
 }
 
 nav ul li{
 	list-style: none;
-	padding: 8px 0 8px 8px;
+	padding: 8px 0 0;
 	font-size: 11pt;
 }
 
@@ -28,10 +28,9 @@ p{
 	margin: 20px 0 0 88px;
 }
 
-#container{
+.container{
 	background-color: silver;
 	margin: 40px;
-	width: 970px;
 	padding-bottom: 10px;
 }
 
@@ -39,7 +38,6 @@ p{
 	border-left: 1px solid black;
 	display: inline-block;
 	vertical-align: top;
-	width: 80%;
 }
 
 h1{
