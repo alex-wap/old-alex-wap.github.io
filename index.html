@@ -1,48 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>Alex's Portfolio</title>
-	<script src="https://use.fontawesome.com/1cd17e04af.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script type="text/javascript">
-		$(document).ready(function(){
-			console.log('ready')
-			$('a').hover(function(){
-				$(this).css('color','#808080');
-			},
-			function(){
-				$(this).css('color','black');
-			});
-		});
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Alex Wapniarski</title>
+        <!-- CSS styling file -->
+        <link type="text/css" rel="stylesheet" href="css/style.css" />
+        <!-- Font-Awesome Library -->
+        <link rel="stylesheet" href="./css/font-awesome.min.css">
+        <!--Import Google Icon Font-->
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-	</script>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-<div class="container">
-	<div class="row">
-		<nav class="links col-md-2 col-sm-2 col-xs-offset-0">
-			<ul>
-				<li><strong><a href="index.html">Alex Wapniarski</a></strong></li>
-				<li><a href="about/index.html">About</a></li>
-				<li><a href="https://alex-wap.github.io/">Work</a></li>
-				<li><a href="https://alex-wap.github.io/">Projects</a></li>
-				<li><a href="https://alex-wap.github.io/">Contact</a></li>
-				<li><a href="https://alex-wap.github.io/">Resume</a></li>
-				<!-- maybe later <li>Blog</li> -->
-				<li><a href="https://github.com/alex-wap"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a> <a href="https://www.linkedin.com/in/wapniarski"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
-			</ul>
-		</nav>
-		<article id="main_content" class="left-bar col-md-8 col-sm-10 col-xs-12">
-			<h1>Alex Wapniarski</h1>
-			<p id="hello">Hello, welcome to my personal website. I am a Berkeley graduate that loves learning, coding, and travel. I am an aspiring Web Developer. Check out my <a href="about/index.html">About</a> page to learn more about me.</p>
-			<img src="personal.png" alt="personal_photo" class="myphoto">
-		</article>
-	</div>
-</div>
-</body>
+        <!-- Angular Framework -->
+        <script src="./angular/angular.min.js" charset="utf-8" defer></script>
+        <script src="./angular/angular-route.min.js" charset="utf-8" defer></script>
+        <!-- My Angular -->
+        <script src="./angular/master.js" charset="utf-8" defer></script>
+        <!-- jQuery -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    </head>
+    <body ng-app='app'>
+    <div class="container">
+    <nav>
+        <div class="nav-wrapper grey darken-3">
+          <a href="#/" class="brand-logo left" style="margin-left: 10px;">AW</a>
+<!--           <a href="#/" class="brand-logo center"></a> -->
+          <ul id="nav-mobile" class="right">
+            <li><a class="waves-effect waves-light btn grey darken-4" href="#/portfolio">Portfolio</a></li>
+            <li><a href="https://www.linkedin.com/in/wapniarski"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
+            <li><a href="https://github.com/alex-wap"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
+            <li><a href="#/contact"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+    </nav>
+    <div ng-view class="row"></div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    </div>
+
+    <!-- FOOTER -->
+    <br>
+    <footer>
+    <div class="footer-copyright">
+        <div class="container grey darken-3 center-align white-text">
+        © 2016 Alex Wapniarski <a href="https://github.com/alex-wap/alex-wap.github.io"><i class="fa fa-github fa-3 white-text" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    </footer>
+    </body>
 </html>

@@ -1,1 +1,3 @@
-This is my personal website to share with the world. I use Twitter bootstrap.
+## Alex Wapniarski
+
+This is my personal website and portfolio. Built with AngularJS and Materialize.
