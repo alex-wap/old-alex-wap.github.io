@@ -7,3 +7,10 @@
 #main_content {
     padding-bottom: 200px;
 }
+
+@media (max-width:800px){
+  .flex-s{
+    display: flex;
+    flex-direction: column;
+  }
+}
