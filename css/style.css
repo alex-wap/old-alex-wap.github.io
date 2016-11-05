@@ -19,6 +19,11 @@
   color: black;
 }
 
+.links:hover{
+  color: grey;
+  text-decoration: underline; 
+}
+
 .brand-logo{
   margin-left: 10px;
 }
