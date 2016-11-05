@@ -14,3 +14,11 @@
     flex-direction: column;
   }
 }
+
+.links{
+  color: black;
+}
+
+.brand-logo{
+  margin-left: 10px;
+}
