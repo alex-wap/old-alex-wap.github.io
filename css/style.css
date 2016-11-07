@@ -12,7 +12,7 @@
     padding-bottom: 200px;
 }
 
-@media (max-width:800px){
+@media (max-width:700px){
   .flex-s{
     display: flex;
     flex-direction: column;
