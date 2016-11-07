@@ -8,9 +8,9 @@
   -ms-user-select: none; /* IE10+ */
 }
 
-#main_content {
+/*#main_content {
     padding-bottom: 200px;
-}
+}*/
 
 @media (max-width:700px){
   .flex-s{
