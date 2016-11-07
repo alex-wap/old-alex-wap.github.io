@@ -11,7 +11,7 @@ app.config(function ($routeProvider) {
     .when('/',{
         templateUrl: 'partials/index.html',
         controller: 'MainController'     
-    })  
+    })
     .when('/contact',{
         templateUrl: 'partials/contact.html',
         controller: 'MainController'     
