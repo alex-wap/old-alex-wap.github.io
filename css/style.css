@@ -8,6 +8,13 @@
   -ms-user-select: none; /* IE10+ */
 }
 
+@media (max-width:995px){
+  .flex-s{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .links{
   color: black;
 }
