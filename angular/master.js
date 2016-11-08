@@ -35,7 +35,7 @@ app.factory('MainFactory', function() {
     factory.databases = ["MySQL", "MongoDB", "SQL", "NoSQL"];  
     factory.tools = ["Git", "AWS EC2","AJAX","Unix/Linux","Socket.io","Xcode"];
     factory.design = ["HTML5","CSS3","Bootstrap","Materialize","Photoshop","Illustrator"];
-    factory.misc = ["PTC Creo","AutoCAD","SolidWorks","SketchUp","3D Studio Max","Microsoft Office Suite, Ping Pong"]; 
+    factory.misc = ["PTC Creo","AutoCAD","SolidWorks","SketchUp","3D Studio Max","Microsoft Office Suite","Ping Pong"]; 
 
     // factory.index = function(callback) {
     //     $http.get('/scores').then(function(response) {
