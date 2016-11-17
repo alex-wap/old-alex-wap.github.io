@@ -1,6 +1,3 @@
-## Alex Wapniarski
+## DEPRECATED PORTFOLIO SITE
 
-This is my personal website and portfolio. [https://alex-wap.github.io/](https://alex-wap.github.io/)
-
-
-Built with AngularJS, Materialize, and jQuery.
+Please visit my new portfolio site. [https://alexw.tech/](https://alexw.tech/)
